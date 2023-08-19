@@ -1627,6 +1627,33 @@
             }
         }
     }
+	
+	yusraa_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = female_hair_steppe_01
+                type = female
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofremerodsimpchar2
+				this = character:lineofremerodsimpchar2
+            }
+        }
+    }
 
     mardat_portrait = { 
         dna_modifiers = {
@@ -3012,7 +3039,7 @@
                 mode = add
                 gene = hairstyles
                 template = all_hairstyles
-                accessory = female_hair_fp2_iberian_christian_02
+                accessory = female_hair_custom_19
                 type = female
             }
 			accessory = {
@@ -3523,6 +3550,190 @@
             }
         }
     }
+	
+	elros_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_fp2_iberian_muslim_03
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofelrosmirkwood
+				this = character:lineofelrosmirkwood
+            }
+        }
+    }
+	
+	mirlonde_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = female_hair_northern_02
+				type = female
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofmirlonde
+				this = character:lineofmirlonde
+            }
+        }
+    }
+	
+	henamarth_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_fp1_08
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofhenamarth
+				this = character:lineofhenamarth
+            }
+        }
+    }
+	
+	lethuin_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_northern_02
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofferen1
+				this = character:lineofferen1
+            }
+        }
+    }
+	
+	lindir_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_fp2_iberian_muslim_03
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineoflindir
+				this = character:lineoflindir
+            }
+        }
+    }
+	
+	erestor_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_fp2_iberian_muslim_03
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineoferestor
+				this = character:lineoferestor
+            }
+        }
+    }
+	
+	daeron_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                mode = add
+                gene = hairstyles
+                template = all_hairstyles
+                accessory = male_hair_western_08
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                value = 0.0
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofdaeron
+				this = character:lineofdaeron
+            }
+        }
+    }
+
 
     eltariel_portrait = { 
         dna_modifiers = {
@@ -3843,7 +4054,7 @@
                  mode = add
                  gene = hairstyles
                  template = all_hairstyles
-                 accessory = male_hair_steppe_01
+                 accessory = male_hair_fp2_iberian_muslim_03
             }
 			accessory = {
                 mode = add
@@ -4077,6 +4288,38 @@
                  mode = add
                  gene = hairstyles
                  template = all_hairstyles
+                 accessory = male_hair_northern_02
+            }
+			accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                accessory = male_beard_rtt_01
+            }
+			accessory = {
+				mode = add				
+				gene = special_headgear_eye_patch
+				template = eye_patch
+				value = 0.5
+			}
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:lineofdurin82
+				this = character:lineofdurin82
+            }
+        }
+    }
+	
+	thror_portrait = { 
+        dna_modifiers = {
+           	accessory = {
+                 mode = add
+                 gene = hairstyles
+                 template = all_hairstyles
                  accessory = male_hair_fp1_08
             }
 			accessory = {
@@ -4091,8 +4334,8 @@
             modifier = {
                 add = 999
 				exists = this
-				exists = character:lineofdurin82
-				this = character:lineofdurin82
+				exists = character:lineofdurin81
+				this = character:lineofdurin81
             }
         }
     }
@@ -4169,8 +4412,8 @@
             modifier = {
                 add = 999
 				exists = this
-				exists = character:lineofbomfur1
-				this = character:lineofbomfur1
+				exists = character:lineofbifur
+				this = character:lineofbifur
             }
         }
     }
@@ -4207,13 +4450,13 @@
                  mode = add
                  gene = hairstyles
                  template = all_hairstyles
-                 accessory = male_beard_fp1_04
+                 accessory = m_hair_ep2_western_01
             }
 			accessory = {
                 mode = add
                 gene = beards
                 template = all_beards
-                accessory = m_hair_ep2_western_01
+                accessory = male_beard_fp1_04
             }
         }   
         weight = {
@@ -4221,8 +4464,8 @@
             modifier = {
                 add = 999
 				exists = this
-				exists = character:lineofbomfur3
-				this = character:lineofbomfur3
+				exists = character:lineofbomfur1
+				this = character:lineofbomfur1
             }
         }
     }

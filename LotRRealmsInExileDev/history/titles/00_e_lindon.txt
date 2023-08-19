@@ -14,40 +14,60 @@ e_lindon = {
 #k_mithlond
 
 #d_mithlond
+
+d_mithlond = {
+	593.7.12 = {
+		holder = lineofcirdan
+		liege = e_lindon
+	}
+}
 c_mithrhulond = {
 	592.1.1 = {
 		change_development_level = 10
 	}
-	4033.7.12 = {
+	593.7.12 = {
 		holder = lineofcirdan
+		liege = e_lindon
 	}
 }
 c_lond_in_telerrim = {
 	592.1.1 = {
 		change_development_level = 3
 	}
+	593.7.12 = {
+		holder = lineofcirdan
+	}
 }
 c_mithannunlond = {
 	592.1.1 = {	
 		change_development_level = 10
 	}
-	4033.7.12 = {
-		holder = lineofcirdan
+	593.7.12 = {
+		holder = linefinwe41
 	}
 }
 c_dor_thalos = {
 	592.1.1 = {
 		change_development_level = 3
 	}
+	593.7.12 = {
+		holder = linefinwe41
+	}
 }
 c_dinfalas = {
 	592.1.1 = {
 		change_development_level = 3
 	}
+	593.7.12 = {
+		holder = linefinwe41
+	}
 }
 c_imladorn = {
 	592.1.1 = {
 		change_development_level = 3
+	}
+	593.7.12 = {
+		holder = linefinwe41
 	}
 	7033.1.1 = {
 		holder = k_wastelands_holder
@@ -59,22 +79,53 @@ c_ronalindon = {
 	592.1.1 = {
 		change_development_level = 3
 	}
+	593.7.12 = {
+		holder = lineofcirdan
+	}
 }
 #d_emyn_beraid
+
+d_emyn_beraid = {
+	3913.1.1 = { # After the relinquishment of Sirgala, what remain of the of the Sirrandrai are granted lordship of the Tower Hills, on account of their long experience interacting with the Dunedain
+		holder = lineofbornmir2
+		liege = e_lindon
+	}
+	4029.2.30 = {
+		holder = lineofbornmir4
+	}
+}
 c_elostirion = {
 	592.1.1 = {
 		change_development_level = 3
+	}
+	3913.1.1 = { # Granted the Tower Hills as a place for his people to dwell
+		holder = lineofbornmir2
+	}
+	4029.2.30 = {
+		holder = lineofbornmir4
 	}
 }
 c_forostirion = {
 	592.1.1 = {
 		change_development_level = 3
 	}
+	3913.1.1 = { # Granted the Tower Hills as a place for his people to dwell
+		holder = lineofbornmir2
+	}
+	4029.2.30 = {
+		holder = lineofbornmir4
+	}
 }
 
 c_harostirion = {
 	592.1.1 = {
 		change_development_level = 3
+	}
+	3913.1.1 = { # Granted the Tower Hills as a place for his people to dwell
+		holder = lineofbornmir2
+	}
+	4029.2.30 = {
+		holder = lineofbornmir4
 	}
 }
 
@@ -141,49 +192,122 @@ c_emyn_dornhoth = {
 }
 
 ### Kingdom of Harlindon ###
-#k_harlindon
+k_harlindon = {
+	592.1.1 = { # Celeborn rules Harlindon under Gil-galad
+		holder = lineofelmo5
+		liege = e_lindon
+	}
+	1024.1.1 = { # Celeborn and Galadriel depart to the inlands of Eriador at Lake Nenuial
+		holder = 0 
+	}
+}
 
-#d_ardolyalinya
+# Duchy of Ardolyalinya
+d_ardolyalinya = {
+	592.1.1 = { # Celeborn rules Harlindon under Gil-galad
+		holder = lineofelmo5
+		liege = e_lindon
+	}
+	1024.1.1 = { # Celeborn and Galadriel depart to the inlands of Eriador at Lake Nenuial
+		holder = lineofauredhir1
+		liege = e_lindon
+	}
+}
+
 c_harlond = {
-	592.1.1 = {
+	592.1.1 = { # Celeborn rules Harlindon under Gil-galad
+		holder = lineofelmo5
+		liege = e_lindon
 		change_development_level = 6
+	}
+	1024.1.1 = { # Celeborn and Galadriel depart to the inlands of Eriador at Lake Nenuial
+		holder = lineofauredhir1
+		liege = e_lindon
 	}
 }
 c_arkemar = {
-	592.1.1 = {
+	592.1.1 = { # Celeborn rules Harlindon under Gil-galad
+		holder = lineofelmo5
+		liege = e_lindon
 		change_development_level = 3
+	}
+	1024.1.1 = { # Celeborn and Galadriel depart to the inlands of Eriador at Lake Nenuial
+		holder = lineofauredhir1
+		liege = e_lindon
 	}
 }
 c_taerlorn = {
-	592.1.1 = {
+	592.1.1 = { # Celeborn rules Harlindon under Gil-galad
+		holder = lineofelmo5
+		liege = e_lindon
 		change_development_level = 3
 	}
-}
-c_lairiardhon = {
-	592.1.1 = {
-		change_development_level = 3
+	1024.1.1 = { # Celeborn and Galadriel depart to the inlands of Eriador at Lake Nenuial
+		holder = lineofauredhir1
+		liege = e_lindon
 	}
 }
 c_dor_firn_i_guinar = {
 	592.1.1 = {
 		change_development_level = 3
 	}
+	3000.1.1 = {
+		holder = lineofaearwen
+		liege = d_ardolyalinya
+	}
 }
-
-#d_elvaedhorien
-c_halfalas = {
+c_lairiardhon = {
 	592.1.1 = {
 		change_development_level = 3
+	}
+	3000.1.1 = {
+		holder = lineofaearwen
+		liege = d_ardolyalinya
+	}
+}
+
+# Duchy of Elvaedhorien
+d_elvaedhorien = {
+	592.1.1 = {
+		holder = lineoflamril0
+		liege = e_lindon
+	}
+	4026.2.30 = {
+		holder = lineoflamril1
+		liege = e_lindon
+	}
+}
+c_halfalas = {
+	592.1.1 = {
+		holder = lineoflamril0
+		liege = e_lindon
+		change_development_level = 3
+	}
+	4026.2.30 = {
+		holder = lineoflamril1
+		liege = e_lindon
 	}
 }
 c_gwaelad = {
 	592.1.1 = {
+		holder = lineoflamril0
+		liege = e_lindon
 		change_development_level = 3
+	}
+	4026.2.30 = {
+		holder = lineoflamril1
+		liege = e_lindon
 	}
 }
 c_caleneithel = {
 	592.1.1 = {
+		holder = lineoflamril0
+		liege = e_lindon
 		change_development_level = 3
+	}
+	4026.2.30 = {
+		holder = lineoflamril1
+		liege = e_lindon
 	}
 }
 
@@ -509,5 +633,21 @@ c_himring = {
 	}
 	5021.3.21 = {
 		holder = linefinwe11
+	}
+}
+
+k_sirgala = {
+	2.3.18 = {
+		holder = lineofbornmir1
+	}
+	700.12.13 = {
+		liege = e_lindon
+		de_jure_liege = e_lindon
+	}
+	2299.4.12 = {
+		holder = lineofbornmir2
+	}
+	3913.1.1 = { # Kingdom of Sirgala dissolved and Dunedain vassals ceded to Elendil
+		holder = 0
 	}
 }

@@ -62,12 +62,24 @@
  ### DWARVES ###
  dynn_durin:0 "Durin"
  dynn_uri:0 "Úri"
+ dynn_khathzaibriz:0 "Khathzâ-Ibriz"
+ dynn_ubraz:0 "'Ubraz"
  dynn_dwalin:0 "Dwalin"
  dynn_delingur:0 "Delingur"
  dynn_wegdrasil:0 "Wegdrasil"
- dynn_uni:0 "Uni"
+ dynn_uni:0 "'Ubnan"
+ dynn_stonewall:0 "Stone-Wall"
+ dynn_arsan:0 "'Arsân"
+ dynn_idagazay:0 "Id-Agazây"
  dynn_hor:0 "Hor"
  dynn_eldran:0 "Eldran"
+ dynn_hersarbinshmur:0 "Hersâr-Binshumr"
+ dynn_gemkarsh:0 "Gemkarsh-Adjân"
+ dynn_ufham_ashamur:0 "'Ufham Ashâmur"
+ dynn_gorin:0 "Gorin"
+ dynn_silverbeard:0 "Silver-Beard"
+ dynn_snail:0 "Rathkh-Biraimzirî"
+
  ### ROHIRRIM & DUNLENDINGS ###
  Eorling:0 "Eorling"
  Frecaling:0 "Frecaling"
@@ -378,6 +390,7 @@
  dynn_caladir:0 "Caladir"
  dynn_hunen:0 "Húnen"
  dynn_esteldir:0 "Carandirionath"
+ dynn_endril:0 "Endril"
  dynn_melosse:0 "Melossë"
  dynn_eldanar:0 "Eldanar"
  dynn_sulmacilionath:0 "Sulmacil"
@@ -512,6 +525,9 @@
  dynn_menelihin:0 "Menelihini"
  dynn_an_durthang:0 "an-Durthang"
  
+ ### Eriadorim ###
+ dynn_reise_arnethor:0 "Reise Arnethor"
+
  ### HARADRIM ###
  
  dynn_awzalika:0 "Awzalikä"
@@ -655,7 +671,12 @@
  dynn_eltariel:0 "Nos Eltariel"
  dynn_aenarion:0 "Nos Aenarion"
  dynn_faelivrin:0 "Nos Faelivrin"
- dynasty_glorfindel:0 ""
+ dynn_glorfindel:0 ""
+ dynn_bornmir:0 "Nos Bornmîr"
+ dynn_artanor:0 "Nos Artanor"
+ dynn_eldalomril:0 "Nos Eldalomril"
+ dynn_aearwen:0 "Nos Nenwendil"
+ dynn_erestor:0 "Nos Erestor"
  
   ### MORDOR ###
  dynn_melkondili:0 "Melkondili"
